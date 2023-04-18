@@ -1,0 +1,101 @@
+@import "./reset";
+@import "./variables";
+@import "./mixin";
+@import "./cards";
+
+#services {
+     background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page290/digimedia/assets/images/services-right-dec.jpg");
+     padding-top: 130px;
+     background-repeat: repeat;
+
+     .container {
+          max-width: 1320px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+
+          .row {
+               display: flex;
+               flex-wrap: wrap;
+
+               .title-container {
+                    @include container;
+
+                    .title {
+                         text-align: center;
+                         margin-bottom: 80px;
+
+                         h6 {
+                              font-size: 15px;
+                              font-weight: 700;
+                              color: $primaryColor;
+                              text-transform: uppercase;
+                              margin-bottom: 15px;
+                              font-family: Poppins, sans-serif;
+                         }
+
+                         h4 {
+                              color: $secondaryColor;
+                              font-size: 35px;
+                              font-weight: 700;
+                              text-transform: capitalize;
+                              margin-bottom: 25px;
+
+                              span {
+                                   font-style: normal;
+                                   color: rgb(114, 106, 227);
+                              }
+                         }
+
+                         .line {
+                              margin: 0 auto;
+                              width: 50px;
+                              height: 2px;
+                              background-color: $primaryColor;
+                         }
+                    }
+               }
+
+               .bottom-container {
+                    @include container;
+
+                    .bottom-row {
+                         display: flex;
+                         flex-wrap: wrap;
+
+                         .bottom-upside {
+                              @include container;
+
+                              .cards {
+                                   text-align: center;
+                                   margin-bottom: 30px;
+
+                                   .card {
+                                        @include card;
+
+                                        .thumb {
+                                             @include thumb;
+
+                                             span {
+                                                  @include thumbSpan;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+
+                         .bottom-downside {
+                              @include container;
+
+                              .seo-container {
+                                   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+                                   background-color: rgb(255, 255, 255);
+                                   border-radius: 15px;
+                                   padding: 80px 120px 50px
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

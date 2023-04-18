@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#services {
+  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page290/digimedia/assets/images/services-right-dec.jpg");
+  padding-top: 130px;
+  background-repeat: repeat;
+}
+#services .container {
+  max-width: 1320px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#services .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#services .container .row .title-container {
+  width: 100%;
+  padding: 0 15px;
+}
+#services .container .row .title-container .title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#services .container .row .title-container .title h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(114, 106, 227);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: Poppins, sans-serif;
+}
+#services .container .row .title-container .title h4 {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+#services .container .row .title-container .title h4 span {
+  font-style: normal;
+  color: rgb(114, 106, 227);
+}
+#services .container .row .title-container .title .line {
+  margin: 0 auto;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(114, 106, 227);
+}
+#services .container .row .bottom-container {
+  width: 100%;
+  padding: 0 15px;
+}
+#services .container .row .bottom-container .bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#services .container .row .bottom-container .bottom-row .bottom-upside {
+  width: 100%;
+  padding: 0 15px;
+}
+#services .container .row .bottom-container .bottom-row .bottom-upside .cards {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#services .container .row .bottom-container .bottom-row .bottom-upside .cards .card {
+  color: rgb(42, 42, 42);
+  margin: 0px;
+  width: 15%;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+}
+#services .container .row .bottom-container .bottom-row .bottom-upside .cards .card .thumb {
+  display: inline-block;
+  width: 100%;
+  padding: 30px 0px;
+}
+#services .container .row .bottom-container .bottom-row .bottom-upside .cards .card .thumb span {
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
+#services .container .row .bottom-container .bottom-row .bottom-downside {
+  width: 100%;
+  padding: 0 15px;
+}
+#services .container .row .bottom-container .bottom-row .bottom-downside .seo-container {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 80px 120px 50px;
+}/*# sourceMappingURL=main.css.map */
